@@ -5,12 +5,14 @@ function analysis(arr) {
 
   if (arr.length <= 0) return false;
 
-  return object = {
+  const object = {
     average: sum / arr.length,
     min: sort[0],
     max: sort[length],
-    length: arr.length
-  }
+    length: arr.length,
+  };
+
+  return object;
 }
 
 module.exports = analysis;
