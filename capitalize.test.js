@@ -1,4 +1,4 @@
-const capitalizeString = require('./capitalize');
+import capitalizeString from './capitalize';
 
 it('should return capitalized string', () => {
   const string = 'test';

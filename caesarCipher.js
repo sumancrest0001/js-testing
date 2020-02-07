@@ -17,5 +17,4 @@ function caesarCipher(text, shift) {
   }
   return ciphered;
 }
-
-module.exports = caesarCipher;
+export default caesarCipher;

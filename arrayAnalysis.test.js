@@ -1,4 +1,4 @@
-const analysis = require('./arrayAnalysis');
+import analysis from './arrayAnalysis';
 
 describe('Array Analysis Function', () => {
   const array = [1, 9, 7, 6, 356, 1238];

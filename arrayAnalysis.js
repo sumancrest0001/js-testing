@@ -15,4 +15,4 @@ function analysis(arr) {
   return object;
 }
 
-module.exports = analysis;
+export default analysis;

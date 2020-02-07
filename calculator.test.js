@@ -1,4 +1,4 @@
-const calculator = require('./calculator');
+import calculator from './calculator';
 
 describe('basic calculator', () => {
   const a = 5;

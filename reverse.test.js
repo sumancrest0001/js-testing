@@ -1,4 +1,4 @@
-const reverseString = require('./reverse');
+import reverseString from './reverse';
 
 test('should return the reverse string', () => {
   const string = 'microverse';
